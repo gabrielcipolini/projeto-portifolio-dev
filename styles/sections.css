@@ -3,10 +3,6 @@
   justify-self: center;
   text-align: center;
 
-  h2 {
-    margin-block: 0.8rem 5.6rem;
-  }
-
   #grid {
     gap: 2.4rem;
 
@@ -22,15 +18,29 @@
       h3{
         margin-block: 2.4rem .8rem;
       }
-
-      p{
-        color: var(--gray-500);
-      }
     }
   }
 }
 
+#myservices {
+  background-color: var(--gray-100);
+  justify-content: center;
+  padding-block: 8.8rem 12rem;
+  text-align: center;
 
+  #cards {
+    gap: 2.4rem;
+    text-align: start;
+    div{
+      border: 2px solid var(--gray-200);
+      padding: 2rem;
+
+      h3 {
+        margin-block: 2rem .8rem;
+      }
+    }
+  }
+}
 
 
 
