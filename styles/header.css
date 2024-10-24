@@ -1,8 +1,6 @@
 #intro {
-  background-image: url(../assets/images/Background_Intro.png);
-  background-position: top center;
-  background-repeat: no-repeat; 
-  background-size: cover;
+  background: url(../assets/images/Background_Intro.png) no-repeat center top /
+    cover;
   justify-items: center;
   padding-block: 12rem 6rem;
   text-align: center;
@@ -24,7 +22,6 @@
     li {
       align-items: center;
       gap: 0.8rem;
-      list-style: none;
 
       background-color: var(--gray-300);
       border-radius: 99.9rem;

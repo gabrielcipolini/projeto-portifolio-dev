@@ -46,13 +46,25 @@ h3 {
   font: inherit;
 }
 
-.container {
-  max-width: 136.6rem;
-  margin-inline: auto;
-  position: relative;
+a {
+  color: var(--gray-500);
+  font: var(--text-md);
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
 }
 
 span {
   color: var(--red);
   font: var(--subtitle);
 }
+
+.container {
+  max-width: 136.6rem;
+  margin-inline: auto;
+  position: relative;
+}
+
+
