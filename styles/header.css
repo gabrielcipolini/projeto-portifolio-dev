@@ -1,0 +1,71 @@
+#intro {
+  background-image: url(../assets/images/Background_Intro.png);
+  background-position: top center;
+  background-repeat: no-repeat; 
+  background-size: cover;
+  justify-items: center;
+  padding-block: 12rem 6rem;
+  text-align: center;
+
+  #description {
+    h2 {
+      color: var(--gray-500);
+      margin-block: 6.2rem 0.8rem;
+    }
+
+    p {
+      color: var(--gray-400);
+      margin-block: 2rem 8rem;
+      max-width: 68rem;
+    }
+  }
+
+  #stacks {
+    li {
+      align-items: center;
+      gap: 0.8rem;
+      list-style: none;
+
+      background-color: var(--gray-300);
+      border-radius: 99.9rem;
+      cursor: default;
+      padding: 0.8rem 1.6rem;
+
+      img {
+        width: 3.2rem;
+        height: 3.2rem;
+      }
+
+      &:nth-child(1):hover > img {
+        content: url(../assets/icons/GitHub.svg);
+      }
+
+      &:nth-child(2):hover > img {
+        content: url(../assets/icons/HTML-hover.svg);
+      }
+
+      &:nth-child(3):hover > img {
+        content: url(../assets/icons/CSS-hover.svg);
+      }
+
+      &:nth-child(4):hover > img {
+        content: url(../assets/icons/JavaScript-hover.svg);
+      }
+
+      &:nth-child(5):hover > img {
+        content: url(../assets/icons/React-hover.svg);
+      }
+
+      &:nth-child(6):hover > img {
+        content: url(../assets/icons/Node.js-hover.svg);
+      }
+    }
+  }
+
+  #scrollDown {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-top: 8.6rem;
+  }
+}

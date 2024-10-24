@@ -1,0 +1,46 @@
+/* --text-md: 400 1.6rem/140% var(--font-mavenPro);
+--text-sm: 400 1.4rem/140% var(--font-mavenPro);  */
+
+.title-lg {
+  font: var(--h1);
+}
+
+.title-md {
+  font: var(--h2);
+}
+
+.title-sm {
+  font: var(--h3);
+}
+
+.subtitle {
+  font: var(--subtitle);
+}
+
+.text-md {
+  font: var(--text-md);
+}
+
+.text-sm {
+  font: var(--text-sm);
+}
+
+.grid {
+  display: grid;
+}
+
+.grid-flow-col {
+  grid-auto-flow: column;
+}
+
+.grid-3-cols {
+  grid-template-columns: repeat(3, 2fr);
+}
+
+.gap-16 {
+  gap: 1.6rem;
+}
+
+.radius-12 {
+  border-radius: 1.2rem;
+}

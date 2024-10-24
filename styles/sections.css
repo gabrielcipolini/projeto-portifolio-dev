@@ -1,0 +1,37 @@
+#projects {
+  margin-block: 7.2rem 14.4rem;
+  justify-self: center;
+  text-align: center;
+
+  h2 {
+    margin-block: 0.8rem 5.6rem;
+  }
+
+  #grid {
+    gap: 2.4rem;
+
+    article {
+      background-color: var(--gray-300);
+      max-width: 33rem;
+      padding: 1.2rem;
+      text-align: start;
+      img {
+        object-fit: cover;
+        width: 100%;
+      }
+      h3{
+        margin-block: 2.4rem .8rem;
+      }
+
+      p{
+        color: var(--gray-500);
+      }
+    }
+  }
+}
+
+
+
+
+
+
